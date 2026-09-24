@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video to Notion 全链路看板</title><style>
+:root{--bg:#FAF9F5;--fg:#2C2C2A;--muted:#8A8882;--line:#E7E4DC;
+--teal:#0F6E56;--teal-l:#E1F5EE;--amber:#BA7517;--red:#B23A2E;}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+background:var(--bg);color:var(--fg);}
+header{padding:20px 24px 16px;border-bottom:1px solid var(--line);}
+h1{margin:0;font-size:20px;font-weight:600;}
+.stamp{color:var(--muted);font-size:12px;margin-top:4px;}
+.gauge{display:flex;align-items:center;gap:12px;margin-top:14px;}
+.big{font-size:28px;font-weight:700;color:var(--teal);}
+.bar{flex:1;height:8px;background:var(--line);border-radius:4px;overflow:hidden;}
+.fill{height:100%;background:var(--teal);width:32%;}
+.chain{display:flex;gap:8px;padding:16px 24px;flex-wrap:wrap;}
+.s{flex:1;min-width:96px;background:var(--teal-l);border-radius:10px;
+padding:10px 12px;text-align:center;}
+.s:first-child{background:#F1EFE8;}
+.s .sn{font-size:12px;color:var(--muted);}
+.s .sv{font-size:22px;font-weight:700;color:var(--teal);margin-top:2px;}
+.s:first-child .sv{color:#444441;}
+table{width:100%;border-collapse:collapse;margin:8px 0 20px;}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:center;
+font-size:13px;}
+th{color:var(--muted);font-weight:500;font-size:12px;position:sticky;top:0;
+background:var(--bg);}
+td.un{text-align:left;font-weight:600;}
+.rate.g{color:var(--teal);font-weight:700;}
+.rate.y{color:var(--amber);font-weight:700;}
+.rate.r{color:var(--red);font-weight:700;}
+.wrap{padding:0 24px 30px;}
+h2{font-size:14px;margin:18px 0 4px;color:var(--fg);}
+</style></head><body>
+<header>
+<h1>Video to Notion 全链路看板</h1>
+<div class="stamp">一条链路 · 每篇唯一阶段 · 刷新 2026-09-24 10:23:27</div>
+<div class="gauge">
+<div class="big">32%</div>
+<div class="bar"><div class="fill" style="width:32%"></div></div>
+<div class="stamp" style="margin:0">已同步 220 / 全库 679</div>
+</div>
+</header>
+<div class="chain"><div class="s"><div class="sn">缺稿</div><div class="sv">62</div></div><div class="s"><div class="sn">待加标点</div><div class="sv">212</div></div><div class="s"><div class="sn">待精校</div><div class="sv">185</div></div><div class="s"><div class="sn">待同步</div><div class="sv">0</div></div><div class="s"><div class="sn">已同步</div><div class="sv">220</div></div></div>
+<div class="wrap">
+<h2>按来源分布（完成率 = 已同步 / 该号总数）</h2>
+<table>
+<thead><tr><th>来源</th><th>总数</th><th>缺稿</th><th>待加标点</th><th>待精校</th><th>待同步</th><th>已同步</th><th>完成率</th></tr></thead>
+<tbody><tr><td class="un">胡风南渡</td><td class="n">24</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">24</td><td class="rate g">100%</td></tr><tr><td class="un">夸克网盘</td><td class="n">215</td><td class="n">0</td><td class="n">0</td><td class="n">47</td><td class="n">0</td><td class="n">168</td><td class="rate y">78%</td></tr><tr><td class="un">唠点历史</td><td class="n">17</td><td class="n">0</td><td class="n">7</td><td class="n">0</td><td class="n">0</td><td class="n">10</td><td class="rate y">59%</td></tr><tr><td class="un">杜茹慧</td><td class="n">46</td><td class="n">0</td><td class="n">19</td><td class="n">11</td><td class="n">0</td><td class="n">16</td><td class="rate r">35%</td></tr><tr><td class="un">小Lin说</td><td class="n">36</td><td class="n">0</td><td class="n">22</td><td class="n">12</td><td class="n">0</td><td class="n">2</td><td class="rate r">6%</td></tr><tr><td class="un">雅痞的阿娴</td><td class="n">91</td><td class="n">0</td><td class="n">5</td><td class="n">86</td><td class="n">0</td><td class="n">0</td><td class="rate r">0%</td></tr><tr><td class="un">小约翰可汗</td><td class="n">82</td><td class="n">0</td><td class="n">82</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="rate r">0%</td></tr><tr><td class="un">王知无</td><td class="n">78</td><td class="n">0</td><td class="n">50</td><td class="n">28</td><td class="n">0</td><td class="n">0</td><td class="rate r">0%</td></tr><tr><td class="un">经管之家</td><td class="n">24</td><td class="n">0</td><td class="n">24</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="rate r">0%</td></tr><tr><td class="un">Giant Cutie</td><td class="n">4</td><td class="n">0</td><td class="n">3</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="rate r">0%</td></tr></tbody>
+</table>
+</div>
+</body></html>
